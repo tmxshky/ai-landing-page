@@ -20,20 +20,20 @@
       <!-- Nav menu -->
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom sticky-top">
           <div class="container d-flex flex-wrap justify-content-start">
-            <span class="navbar-brand fw-bold d-sm-none">akcja Integracja!</span>
+            <a href="#" class="fw-bolder d-sm-none text-decoration-none" style="color: #372e2c;">akcja <span class="navbar-brand h1 fw-bold" style="color: #ffb700;">Integracja!</span></a>
             <div class="d-sm-none ms-auto">
-              <a role="button" href="#" class="btn btn-light rounded-pill" style="padding: .375rem .625rem;"><i class="bi bi-facebook"></i></a>
-              <a role="button" href="#" class="btn btn-light rounded-pill ms-1" style="padding: .375rem .625rem;"><i class="bi bi-people-fill"></i> Wro</a>
+              <a role="button" href="#" class="btn btn-secondary rounded-pill" style="padding: .375rem .625rem;"><i class="bi bi-facebook"></i></a>
+              <a role="button" href="#" class="btn btn-primary rounded-pill ms-1" style="padding: .375rem .625rem;"><i class="bi bi-people-fill"></i></a>
             </div>
             <button class="navbar-toggler ms-2 bg-white p-1 rounded-circle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <svg class="bi" width="24" height="24" style="margin: 3px;"><use xlink:href="img/bootstrap-icons.svg#three-dots-vertical"></use></svg>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav pt-1 pt-sm-0">
+              <ul class="navbar-nav pt-1 pt-sm-0 text-end">
                 <hr class="d-sm-none mb-2 mt-1 border-top opacity-100">
-                <li class="nav-item"><a href="#o-akcji-integracji" class="nav-link link-dark">O Akcji Integracji</a></li>
-                <li class="nav-item"><a href="#wydarzenia" class="nav-link link-dark">Wydarzenia</a></li>
-                <li class="nav-item"><a href="#aktualnosci" class="nav-link link-dark">Aktualności</a></li>
+                <li class="nav-item"><a href="#o-inicjatywie" class="nav-link link-dark">O inicjatywie</a></li>
+                <li class="nav-item"><a href="#spotkania" class="nav-link link-dark">Spotkania</a></li>
+                <li class="nav-item"><a href="#jak-dolaczyc" class="nav-link link-dark">Jak dołączyć?</a></li>
                 <li class="nav-item"><a href="#kontakt" class="nav-link link-dark">Kontakt</a></li>
               </ul>
             </div>
@@ -43,42 +43,46 @@
       <!-- Main header-->
         <header class="d-none d-sm-block py-4">
           <div class="container d-flex flex-wrap justify-content-center">
-            <a href="/" class="d-flex col-sm-6 align-items-center justify-content-center justify-content-sm-start mb-3 mb-sm-0 me-sm-auto text-dark text-decoration-none">
+            <a href="#" class="d-flex col-sm-6 align-items-center justify-content-center justify-content-sm-start mb-3 mb-sm-0 me-sm-auto text-dark text-decoration-none">
               <img src="/img/logo_nav.svg" alt="" width="164" height="52">
             </a>
             <div class="py-sm-2 text-end">
-              <a role="button" href="#" class="btn btn-light rounded-pill" style="padding: .375rem .625rem;"><i class="bi bi-facebook"></i></a>
-              <a role="button" href="#" class="btn btn-light rounded-pill ms-1" style="padding: .375rem .625rem;"><i class="bi bi-people-fill"></i> Wro</a>
+              <a role="button" href="#" class="btn btn-secondary rounded-pill" style="padding: .375rem .75rem;"><i class="bi bi-facebook me-1"></i> Polub</a>
+              <a role="button" href="#" class="btn btn-primary rounded-pill ms-1" style="padding: .375rem .75rem;"><i class="bi bi-people-fill me-1"></i> Dołącz</a>
             </div>
           </div>
         </header>
 
-    <!--KARUZELA-->
+    <!-- Carousel -->
       <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <!--KARUZELA-ELEMENTY_STERUJĄCE-->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
-        </div>
+        <!-- Carousel Dots-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+          </div>
 
-        <!--KARUZELA-KONTENER_ZE_SLAJDAMI-->
+        <!--Carousel Inner-->
         <div class="carousel-inner">
-          <div class="carousel-item" style="background-image: url(/img/carousel/slide1.jpg);">
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+    
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1 class="display-3 fw-bold">Nowi znajomi</h1>
                 <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-light" href="#o-akcji-integracji">O inicjatywie</a></p>
+                <p><a class="btn btn-lg btn-light rounded-pill px-4" href="#o-akcji-integracji">O inicjatywie</a></p>
               </div>
             </div>
           </div>
-          <div class="carousel-item" style="background-image: url(/img/carousel/slide2.jpg);">
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+    
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1 class="display-3 fw-bold">Ciekawe miejsca</h1>
                 <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-light" href="#">Nasze wydarzenia</a></p>
+                <p><a class="btn btn-lg btn-light rounded-pill px-4" href="#">Nasze wydarzenia</a></p>
               </div>
             </div>
           </div>
@@ -89,31 +93,133 @@
               <div class="carousel-caption text-end">
                 <h1 class="display-3 fw-bold">Najlepsze wspomnienia</h1>
                 <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-light" href="#">Dołącz teraz!</a></p>
+                <p><a class="btn btn-lg btn-light rounded-pill px-4" href="#">Dołącz teraz!</a></p>
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <!-- Carousel Buttons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
       </div>
 
-    <h2>Section: O Akcji Integracji</h2>
-    <hr>
-    <h2>Section: Wydarzenia</h2>
-    <hr>
-    <h2>Section: Aktualności</h2>
+    <!-- Section: About-->
+      <div id="o-inicjatywie" class="container col-xxl-8 px-4 py-5 ">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Czym jest<br>Akcja Integracja?</h1>
+            <p class="lead">Akcja Integracja jest społeczością, która pozwoli Ci przede wszystkim poznać nowych ludzi, a także stworzy przyjaźnie i wspomnienia, które będą towarzyszyć Tobie przez wiele, wiele lat. Dodatkowo uczestnicząc w naszych będziesz miał/a okazję spędzić czas w ciekawych i klimatycznych miejscach.</p>
+            <p class="lead">Jeśli nie możesz już wytrzymać w domu lub brakuje Ci towarzystwa do wyjścia - tak grupa jest zdecydowanie dla Ciebie.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="#spotkania" role="button" class="btn btn-primary btn-lg px-4 me-md-2">Co organizujemy? <i class="bi bi-arrow-right-circle ms-3"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="https://getbootstrap.com/docs/5.1/examples/heroes/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+    <!-- Section: Events -->
+      <div id="spotkania" class="border-top border-bottom bg-light">
+        <div class="px-4 pt-5 my-5 text-center">
+          <h1 class="display-4 fw-bold">Organizowane wydarzenia</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Każdego tygodnia organizujemy przynajmniej kilka różnych wydarzeń.<br>Z pewnością każdy znajdzie coś dla siebie!</p>
+          </div>
+          
+          <!--SEKCJA_WYDARZENIA_KARTY_WYDARZEŃ-->
+          <div class="container px-4 pb-5" id="custom-cards">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 align-items-stretch g-4 pt-5 text-start">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-1.jpg');">
+                  <div class="d-flex align-items-end h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Wyjścia do pubów, restauracji, a także na imprezy</h2>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-2.jpg');">
+                  <div class="d-flex align-items-end h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Planszówki, gry integracyjne i zespołowe</h2>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-3.jpg');">
+                  <div class="d-flex align-items-end h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Wycieczki, wyjazdy w góry, nad jeziora i morze</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-1.jpg');">
+                  <div class="d-flex align-items-end h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Wspólne wyjazdy na wakacje, relaks lub odpoczynek</h2>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-2.jpg');">
+                  <div class="d-flex align-items-end h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Rekreacyjne tj. siatkówka, kajaki, rolki i rowery</h2>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://getbootstrap.com/docs/5.1/examples/features/unsplash-photo-3.jpg');">
+                  <div class="d-flex align-items-end h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 lh-1 fw-bold">Wspólne wyjścia na basen, koncerty, do kina i teatru</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mx-auto">
+            <p class="display-6 fw-bold py-4">... i wiele, wiele więcej!</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Section: News -->
     <hr>
     <h2>Section: Kontakt</h2>
-    <hr>
-    <h2>Footer</h2>
 
+    <!-- Footer -->
+      <footer class="py-3 mt-4 border-top bg-light">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+          <div  class="col-8 col-md-4 text-muted">
+            <p class="my-0 fw-bolder">© 2021 Akcja Integracja</p>
+            <p class="my-0 lh-1">Made with <i class="bi bi-heart text-danger"></i> by Dawid</p>
+          </div>
+
+          <a href="/" class="col-md-4 d-none d-md-flex align-items-center justify-content-center text-center my-2 my-md-0 me-md-auto link-dark text-decoration-none">
+            <img src="img/logo_nav2.svg" alt="" width="73" height="52"></svg>
+          </a>
+      
+          <ul class="nav col-4 col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="img/bootstrap-icons.svg#facebook"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="img/bootstrap-icons.svg#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="img/bootstrap-icons.svg#youtube"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    
 
     <!-- JavaScript -->
 
